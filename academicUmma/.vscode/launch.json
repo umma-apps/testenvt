@@ -1,0 +1,78 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Production",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "OnPrem",
+      "server": "http://erp.umma.ac.ke:8080/UMMA",
+      "serverInstance": "UMMA",
+      "authentication": "UserPassword",
+      "startupObjectId": 22,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "tenant": "default",
+      "port": 7049,
+      "schemaUpdateMode": "ForceSync"
+    },
+    
+    {
+      "name": "Development",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "OnPrem",
+      "server": "http://41.89.1.239:8080/TEST_UMMA/",
+      "serverInstance": "TEST_UMMA",
+      "authentication": "UserPassword",
+      "startupObjectId": 22,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "tenant": "default",
+      "port": 1049,
+      "schemaUpdateMode": "ForceSync"
+    }
+    // {
+    //   "name": "Development",
+    //   "request": "launch",
+    //   "type": "al",
+    //   "environmentType": "OnPrem",
+    //   "server": "http://41.89.1.239:8080/TEST_UMMA/",
+    //   "serverInstance": "TEST_UMMA",
+    //   "authentication": "UserPassword",
+    //   "startupObjectId": 22,
+    //   "startupObjectType": "Page",
+    //   "breakOnError": "All",
+    //   "launchBrowser": true,
+    //   "enableLongRunningSqlStatements": true,
+    //   "enableSqlInformationDebugger": true,
+    //   "tenant": "default",
+    //   "port": 1049,
+    //   "schemaUpdateMode": "ForceSync"
+    // },
+    // {
+    //   "name": "Test Env",
+    //   "request": "launch",
+    //   "type": "al",
+    //   "environmentType": "OnPrem",
+    //   "server":"http://erp.embuni.ac.ke:8080/UOEM",
+    //   "serverInstance": "UOEM",
+    //   "authentication": "UserPassword",
+    //   "startupObjectId": 22,
+    //   "startupObjectType": "Page",
+    //   "breakOnError": "All",
+    //   "launchBrowser": true,
+    //   "enableLongRunningSqlStatements": true,
+    //   "enableSqlInformationDebugger": true,
+    //   "tenant": "default",
+    //   "port": 6049,
+    //   "schemaUpdateMode": "ForceSync"
+    // },
+  ]
+}
